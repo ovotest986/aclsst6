@@ -1,8 +1,5 @@
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN,edgeservices.bing.com
-DOMAIN-SUFFIX,cloud.cupronickel.goog
-DOMAIN-KEYWORD,google
+
+# DOMAIN-SUFFIX,cloud.cupronickel.goog
+# DOMAIN-KEYWORD,google
 
 # IP-CIDR,34.107.0.0/16,no-resolve
