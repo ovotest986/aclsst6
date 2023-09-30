@@ -1,10 +1,5 @@
 payload:
-  # > Fast
   - DOMAIN-SUFFIX,fast.com
-
-# > Speedtest by Ookla
-- DOMAIN-KEYWORD,speedtest
-- DOMAIN-SUFFIX,ooklaserver.net
-
-# > Speed Test by Cloudflare
-- DOMAIN-SUFFIX,speed.cloudflare.com
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,speed.cloudflare.com
