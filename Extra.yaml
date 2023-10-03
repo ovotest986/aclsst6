@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,cloud.cupronickel.goog
   - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gun.com
 
 # IP-CIDR,34.107.0.0/16,no-resolve
