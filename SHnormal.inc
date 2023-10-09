@@ -60,3 +60,5 @@ custom_proxy_group=🇰🇷 韩国（故障转移）`fallback`(?=.*0\.2)(KR|Kore
 
 enable_rule_generator=true
 overwrite_original_rules=true
+
+
