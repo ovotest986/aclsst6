@@ -51,12 +51,12 @@ custom_proxy_group=🚅 专线节点（故障转移）`fallback`(IEPL|IPLC|EIP|C
 custom_proxy_group=♻️ 全部节点（自动）`url-test`^(?!.*(天|距离|剩余|IEPL|IPLC|EIP|CN2GIA)).+$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🚩 低倍节点（自动）`url-test`(0.2|0.5)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🚅 专线节点（自动）`url-test`(IEPL|IPLC|EIP|CN2GIA)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇭🇰 香港（故障转移）`url-test`(?=.*0\.2)(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇯🇵 日本（故障转移）`url-test`(?=.*0\.2)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇺🇲 美国（故障转移）`url-test`(?=.*0\.2)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,150
-custom_proxy_group=🇨🇳 台湾（故障转移）`url-test`(?=.*0\.2)(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇸🇬 新加坡（故障转移）`url-test`(?=.*0\.2)(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇰🇷 韩国（故障转移）`url-test`(?=.*0\.2)(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇭🇰 香港（故障转移）`fallback`(?=.*0\.2)(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本（故障转移）`fallback`(?=.*0\.2)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国（故障转移）`fallback`(?=.*0\.2)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,150
+custom_proxy_group=🇨🇳 台湾（故障转移）`fallback`(?=.*0\.2)(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡（故障转移）`fallback`(?=.*0\.2)(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇰🇷 韩国（故障转移）`fallback`(?=.*0\.2)(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
 
 enable_rule_generator=true
 overwrite_original_rules=true
