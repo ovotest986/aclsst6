@@ -1,0 +1,51 @@
+[custom]
+
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ovotest986/acl/main/LocalAreaNetwork.list
+ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ovotest986/acl/main/BanAD.list
+ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ovotest986/acl/main/BanProgramAD.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ovotest986/acl/main/GoogleCN.list
+ruleset=💳 PayPal,https://raw.githubusercontent.com/ovotest986/acl/main/PayPal.list
+ruleset=🚀 SpeedTest,https://raw.githubusercontent.com/ovotest986/acl/main/SpeedTest.list
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ovotest986/acl/main/Apple.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ovotest986/acl/main/Microsoft.list
+ruleset=🎮 游戏服务,https://raw.githubusercontent.com/ovotest986/acl/main/Game.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ovotest986/acl/main/ProxyMedia.list
+ruleset=🌍 国内媒体,https://raw.githubusercontent.com/ovotest986/acl/main/ChinaMedia.list
+ruleset=✉️ 电报信息,https://raw.githubusercontent.com/ovotest986/acl/main/Telegram.list
+ruleset=🫧 节点选择,https://raw.githubusercontent.com/ovotest986/acl/main/ProxyLite.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ovotest986/acl/main/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ovotest986/acl/main/ChinaCompanyIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ovotest986/acl/main/Download.list
+ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🫧 节点选择,[]FINAL
+
+custom_proxy_group=🫧 节点选择`select`[]♻️ 全部节点（故障转移）`[]♻️ 全部节点（自动）`[]♻️ 全部节点（自选）`[]🚩 低倍节点（故障转移）`[]🚩 低倍节点（自动）`[]🚩 低倍节点（自选）`[]🚅 专线节点（故障转移）`[]🚅 专线节点（自动）`[]🚅 专线节点（自选）`[]🏳️‍⚧️ 冷门（自选）`[]🇭🇰 香港（自动）`[]🇨🇳 台湾（自动）`[]🇸🇬 新加坡（自动）`[]🇯🇵 日本（自动）`[]🇺🇲 美国（自动）`[]🇰🇷 韩国（自动）`[]🎯 全球直连
+custom_proxy_group=💳 PayPal`select`[]🫧 节点选择`[]♻️ 全部节点（自选）`[]🎯 全球直连
+custom_proxy_group=🚀 SpeedTest`select`[]🫧 节点选择`[]♻️ 全部节点（故障转移）`[]♻️ 全部节点（自动）`[]♻️ 全部节点（自选）`[]🚩 低倍节点（故障转移）`[]🚩 低倍节点（自动）`[]🚩 低倍节点（自选）`[]🚅 专线节点（故障转移）`[]🚅 专线节点（自动）`[]🚅 专线节点（自选）`[]🏳️‍⚧️ 冷门（自选）`[]🇭🇰 香港（自动）`[]🇨🇳 台湾（自动）`[]🇸🇬 新加坡（自动）`[]🇯🇵 日本（自动）`[]🇺🇲 美国（自动）`[]🇰🇷 韩国（自动）`[]🎯 全球直连
+custom_proxy_group=🌍 国外媒体`select`[]🫧 节点选择`[]♻️ 全部节点（故障转移）`[]♻️ 全部节点（自动）`[]♻️ 全部节点（自选）`[]🚩 低倍节点（故障转移）`[]🚩 低倍节点（自动）`[]🚩 低倍节点（自选）`[]🚅 专线节点（故障转移）`[]🚅 专线节点（自动）`[]🚅 专线节点（自选）`[]🏳️‍⚧️ 冷门（自选）`[]🇭🇰 香港（自动）`[]🇨🇳 台湾（自动）`[]🇸🇬 新加坡（自动）`[]🇯🇵 日本（自动）`[]🇺🇲 美国（自动）`[]🇰🇷 韩国（自动）`[]🎯 全球直连
+custom_proxy_group=🌍 国内媒体`select`[]🫧 节点选择`[]♻️ 全部节点（自选）`[]🎯 全球直连
+custom_proxy_group=✉️ 电报信息`select`[]🫧 节点选择`[]♻️ 全部节点（故障转移）`[]♻️ 全部节点（自动）`[]♻️ 全部节点（自选）`[]🚩 低倍节点（故障转移）`[]🚩 低倍节点（自动）`[]🚩 低倍节点（自选）`[]🚅 专线节点（故障转移）`[]🚅 专线节点（自动）`[]🚅 专线节点（自选）
+custom_proxy_group=🎮 游戏服务`select`[]🫧 节点选择`[]🚅 专线节点（自选）`[]🎯 全球直连
+custom_proxy_group=Ⓜ️ 微软服务`select`[]🫧 节点选择`[]♻️ 全部节点（自选）`[]🚩 低倍节点（自选）`[]🚅 专线节点（自选）`[]🏳️‍⚧️ 冷门（自选）`[]🇭🇰 香港（自动）`[]🇨🇳 台湾（自动）`[]🇸🇬 新加坡（自动）`[]🇯🇵 日本（自动）`[]🇺🇲 美国（自动）`[]🇰🇷 韩国（自动）`[]🎯 全球直连
+custom_proxy_group=🍎 苹果服务`select`[]🫧 节点选择`[]♻️ 全部节点（自选）`[]🚩 低倍节点（自选）`[]🚅 专线节点（自选）`[]🏳️‍⚧️ 冷门（自选）`[]🇭🇰 香港（自动）`[]🇨🇳 台湾（自动）`[]🇸🇬 新加坡（自动）`[]🇯🇵 日本（自动）`[]🇺🇲 美国（自动）`[]🇰🇷 韩国（自动）`[]🎯 全球直连
+custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=🎯 全球直连`select`[]DIRECT
+custom_proxy_group=🏳️‍⚧️ 冷门（自选）`select`^(?!.*(天|距离|剩余|港|HK|Hong Kong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|新加坡|SG|Singapore|KR|Korea|KOR|首尔|韩|韓|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)).+$
+custom_proxy_group=♻️ 全部节点（自选）`select`.*
+custom_proxy_group=🚅 专线节点（自选）`select`(IEPL|IPLC|EIP|CN2GIA)
+custom_proxy_group=🚩 低倍节点（自选）`select`(0.2|0.5)
+custom_proxy_group=♻️ 全部节点（故障转移）`fallback`^(?!.*(天|距离|剩余)).+$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🚩 低倍节点（故障转移）`fallback`(0.2|0.5)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🚅 专线节点（故障转移）`fallback`(IEPL|IPLC|EIP|CN2GIA)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=♻️ 全部节点（自动）`url-test`^(?!.*(天|距离|剩余|游戏|IEPL|IPLC|EIP|CN2GIA)).+$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🚩 低倍节点（自动）`url-test`(0.2|0.5)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🚅 专线节点（自动）`url-test`(IEPL|IPLC|EIP|CN2GIA)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇭🇰 香港（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Hong Kong (0[4-9]|1[0-7])))(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Japan (0[1-9]|10)))(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*United States (0[1-4])))(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,150
+custom_proxy_group=🇨🇳 台湾（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Taiwan (0[2-9])))(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Singapore (0[1-5])))(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇰🇷 韩国（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Korea (0[1-2])))(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
+
+enable_rule_generator=true
+overwrite_original_rules=true
