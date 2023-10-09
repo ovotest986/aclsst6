@@ -37,15 +37,15 @@ custom_proxy_group=🚩 低倍节点（自选）`select`(0.2|0.5)
 custom_proxy_group=♻️ 全部节点（故障转移）`fallback`^(?!.*(天|距离|剩余)).+$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🚩 低倍节点（故障转移）`fallback`(0.2|0.5)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🚅 专线节点（故障转移）`fallback`(IEPL|IPLC|EIP|CN2GIA)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=♻️ 全部节点（自动）`url-test`^(?!.*(天|距离|剩余|游戏|IEPL|IPLC|EIP|CN2GIA)).+$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=♻️ 全部节点（自动）`url-test`^(?!.*(天|距离|剩余|IEPL|IPLC|EIP|CN2GIA)).+$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🚩 低倍节点（自动）`url-test`(0.2|0.5)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🚅 专线节点（自动）`url-test`(IEPL|IPLC|EIP|CN2GIA)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇭🇰 香港（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Hong Kong (0[4-9]|1[0-7])))(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇯🇵 日本（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Japan (0[1-9]|10)))(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇺🇲 美国（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*United States (0[1-4])))(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,150
-custom_proxy_group=🇨🇳 台湾（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Taiwan (0[2-9])))(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇸🇬 新加坡（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Singapore (0[1-5])))(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇰🇷 韩国（自动）`url-test`((?=.*0\.01)|(?=.*0\.2)|(?=.*Korea (0[1-2])))(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇭🇰 香港（自动）`url-test`(?=.*0\.2)(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本（自动）`url-test`(?=.*0\.2)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国（自动）`url-test`(?=.*0\.2)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,150
+custom_proxy_group=🇨🇳 台湾（自动）`url-test`(?=.*0\.2)(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡（自动）`url-test`(?=.*0\.2)(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇰🇷 韩国（自动）`url-test`(?=.*0\.2)(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
 
 enable_rule_generator=true
 overwrite_original_rules=true
