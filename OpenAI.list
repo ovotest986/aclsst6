@@ -14,3 +14,5 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,openai
 DOMAIN,edgeservices.bing.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
