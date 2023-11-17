@@ -1,6 +1,5 @@
 # Netflix
 USER-AGENT,Argo*
-DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
