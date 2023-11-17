@@ -18,3 +18,5 @@ payload:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,bard.google.com
+
