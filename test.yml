@@ -43,7 +43,7 @@ proxy-groups:
 - name: ☕ Main
   type: select
   proxies:
-  filter:^(?!.*(官网|剩余|流量|到期|套餐))
+  filter: ^(?!.*(官网|剩余|流量|到期|套餐))
     
 Proxy Group:
 
