@@ -3,6 +3,7 @@ Nexitally`select`.*`[]♻️ Auto`[]DIRECT`.*
 🍎 Apple`select`[]DIRECT`[]Nexitally
 🎬 Emby`select`[]Nexitally`[]DIRECT
 📲 Telegram`select`[]Nexitally`[]DIRECT
+🎬 YouTube`select`[]Nexitally`[]DIRECT
 🎬 Bilibili`select`[]DIRECT`[]Nexitally
 🎬 myTVSUPER`select`[]Nexitally`[]DIRECT
 📲 LineTV`select`[]Nexitally`[]DIRECT
