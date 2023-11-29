@@ -8,58 +8,56 @@ secret: "123321"
 
 dns:
   enable: true
-    listen: 0.0.0.0:53
-    use-hosts: true
-    ipv6: false
-    default-nameserver:
-      - 1.1.1.1
-      - 223.5.5.5
-      - 129.29.29.29
-    nameserver:
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    fake-ip-filter:
-      - +.lan
-      - +.cn
-      - +.10010.com
-      - +.chinaunicom.com
-      - "*.alipay.com"
-      - "*.alipayobjects.com"
-      - connect.rom.miui.com
-      - localhost.ptlogin2.qq.com
-      - +.stun.*.*
-      - +.stun.*.*.*
-      - +.stun.*.*.*.*
-      - +.stun.*.*.*.*.*
-      - "*.n.n.srv.nintendo.net"
-      - +.stun.playstation.net
-      - "*.msftncsi.com"
-      - "*.msftconnecttest.com"
+  listen: 0.0.0.0:53
+  use-hosts: true
+  ipv6: false
+  default-nameserver:
+    - 1.1.1.1
+    - 223.5.5.5
+    - 129.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.lan
+    - +.cn
+    - +.10010.com
+    - +.chinaunicom.com
+    - "*.alipay.com"
+    - "*.alipayobjects.com"
+    - connect.rom.miui.com
+    - localhost.ptlogin2.qq.com
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - "*.n.n.srv.nintendo.net"
+    - +.stun.playstation.net
+    - "*.msftncsi.com"
+    - "*.msftconnecttest.com"
 
 proxy-groups:
-
-- name: ☕ Main
-  type: select
-  proxies:
-  filter: ^(?!.*(官网|剩余|流量|到期|套餐))
+  - name: ☕ Main
+    type: select
+    proxies:
+    filter: ^(?!.*(官网|剩余|流量|到期|套餐))
     
 Proxy Group:
-
-- { name: "Proxy", type: select, proxies: ["☕ Main"] }
-- { name: "google", type: select, proxies: ["Proxy"] }
-- { name: "netflix", type: select, proxies: ["Proxy"] }
-- { name: "动画疯", type: select, proxies: ["Proxy"] }
-- { name: "美区影视", type: select, proxies: ["Proxy"] }
-- { name: "fox+", type: select, proxies: ["Proxy"] }
-- { name: "Final", type: select, proxies: ["Proxy","网易解锁", "DIRECT"] }
-- { name: "Apple", type: select, proxies: ["DIRECT", "Proxy"] }
-- { name: "Global_media", type: select, proxies: ["Proxy","网易解锁"] }
-- { name: "Domestic", type: select, proxies: ["DIRECT","网易解锁"] }
-- { name: "屏蔽广告", type: select, proxies: ["REJECT","网易解锁", "DIRECT"] }
-- { name: "UnblockNeteaseMusic", type: select, proxies: ["网易解锁"] }
-- { name: "Telegram", type: select, proxies: ["Proxy"] }
+  - { name: "Proxy", type: select, proxies: ["☕ Main"] }
+  - { name: "google", type: select, proxies: ["Proxy"] }
+  - { name: "netflix", type: select, proxies: ["Proxy"] }
+  - { name: "动画疯", type: select, proxies: ["Proxy"] }
+  - { name: "美区影视", type: select, proxies: ["Proxy"] }
+  - { name: "fox+", type: select, proxies: ["Proxy"] }
+  - { name: "Final", type: select, proxies: ["Proxy","网易解锁", "DIRECT"] }
+  - { name: "Apple", type: select, proxies: ["DIRECT", "Proxy"] }
+  - { name: "Global_media", type: select, proxies: ["Proxy","网易解锁"] }
+  - { name: "Domestic", type: select, proxies: ["DIRECT","网易解锁"] }
+  - { name: "屏蔽广告", type: select, proxies: ["REJECT","网易解锁", "DIRECT"] }
+  - { name: "UnblockNeteaseMusic", type: select, proxies: ["网易解锁"] }
+  - { name: "Telegram", type: select, proxies: ["Proxy"] }
 
 Rule:
 
