@@ -38,14 +38,9 @@ dns:
     - "*.msftncsi.com"
     - "*.msftconnecttest.com"
 
-proxy-groups:
-  - name: ☕ Main
-    type: select
-    proxies:
-    filter: ^(?!.*(官网|剩余|流量|到期|套餐))
     
 Proxy Group:
-  - { name: "Proxy", type: select, proxies: ["☕ Main"] }
+  - { name: "Proxy", type: select, proxies: ["Proxy"] }
   - { name: "google", type: select, proxies: ["Proxy"] }
   - { name: "netflix", type: select, proxies: ["Proxy"] }
   - { name: "动画疯", type: select, proxies: ["Proxy"] }
