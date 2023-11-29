@@ -19,31 +19,31 @@ url-rewrite:
     - '^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302'
 
 proxy-groups:
-    - { name: Proxy, type: select, proxies: ['Auto - UrlTest', DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Domestic, type: select, proxies: [DIRECT, Proxy, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Others, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
+    - { name: Proxy, type: select, proxies: ['Auto - UrlTest', DIRECT,] }
+    - { name: Domestic, type: select, proxies: [DIRECT, Proxy,] }
+    - { name: Others, type: select, proxies: [Proxy, DIRECT,] }
     - { name: AdBlock, type: select, proxies: [REJECT, DIRECT, Proxy] }
-    - { name: 'Anti IP', type: select, proxies: [DIRECT, Proxy, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Netflix, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Disney, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: YouTube, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Spotify, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: 'Asian TV', type: select, proxies: [DIRECT, Proxy, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: 'Global TV', type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Apple, type: select, proxies: [DIRECT, Proxy, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: 'Apple TV', type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Telegram, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: 'Google FCM', type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Crypto, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Discord, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Microsoft, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: OpenAI, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: PayPal, type: select, proxies: [DIRECT, Proxy, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Scholar, type: select, proxies: [DIRECT, Proxy, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Speedtest, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: Steam, type: select, proxies: [Proxy, DIRECT, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: miHoYo, type: select, proxies: [DIRECT, Proxy, '🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'] }
-    - { name: 'Auto - UrlTest', type: url-test, proxies: ['🇨🇳 台湾 AC', '🇩🇪 德国 AC [01]', '🇩🇪 德国 AC [02]', '🇸🇬 新加坡 AC', '🇯🇵 日本 AC [01]', '🇯🇵 日本 AC [02]', '🇺🇸 美国 AC [01]', '🇺🇸 美国 AC [02]', '🇬🇧 英国 AC [01]', '🇬🇧 英国 AC [02]', '🇰🇷 韩国 AC [01]', '🇰🇷 韩国 AC [02]', '🇭🇰 香港 AC [01]', '🇭🇰 香港 AC [02]'], url: 'http://cp.cloudflare.com/generate_204', interval: '3600' }
+    - { name: 'Anti IP', type: select, proxies: [DIRECT, Proxy,] }
+    - { name: Netflix, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Disney, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: YouTube, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Spotify, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: 'Asian TV', type: select, proxies: [DIRECT, Proxy,] }
+    - { name: 'Global TV', type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Apple, type: select, proxies: [DIRECT, Proxy,] }
+    - { name: 'Apple TV', type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Telegram, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: 'Google FCM', type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Crypto, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Discord, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Microsoft, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: OpenAI, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: PayPal, type: select, proxies: [DIRECT, Proxy,] }
+    - { name: Scholar, type: select, proxies: [DIRECT, Proxy,] }
+    - { name: Speedtest, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: Steam, type: select, proxies: [Proxy, DIRECT,] }
+    - { name: miHoYo, type: select, proxies: [DIRECT, Proxy,] }
+    - { name: 'Auto - UrlTest', type: url-test, proxies: ['~^.*$'], url: 'http://cp.cloudflare.com/generate_204', interval: '3600' }
 rules:
     - 'RULE-SET, Reject, AdBlock'
     - 'RULE-SET, Special, DIRECT'
