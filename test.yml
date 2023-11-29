@@ -1,4 +1,6 @@
+
 [custom]
+
 rulesets:
   enabled: true
   overwrite_original_rules: true
@@ -37,3 +39,5 @@ rules:
   - GEOIP,CN,节点选择
   - MATCH,节点选择
 
+enable_rule_generator=true
+overwrite_original_rules=true
