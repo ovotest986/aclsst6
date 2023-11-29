@@ -1,222 +1,38 @@
-rule-providers:
-  #本地
-  # Lan_rule:
-  #   type: http
-  #   behavior: classical
-  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
-  #   path: ./RuleSet/Lan.yaml
-  #   interval: 86400
-  # #自定义额外添加
 
-  #国内域名
-  # China_rule:
-  #   type: http
-  #   behavior: classical
-  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml"
-  #   path: ./RuleSet/ChinaMax_Classical.yaml
-  #   interval: 86400
+rulesets:
+  enabled: true
+  overwrite_original_rules: false
+  update_ruleset_on_request: false
+  rulesets:
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml", group: "DIRECT", interval: 86400}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml", group: "MAIN", interval: 86400}
 
-  Spotify_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml"
-    path: ./RuleSet/Spotify.yaml
-    interval: 86400
 
-  #常用下载软件
-  # Download_rule:
-  #   type: http
-  #   behavior: classical
-  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml"
-  #   path: ./RuleSet/Download.yaml
-  #   interval: 86400
+proxy_groups:
+  custom_proxy_group:
+  - {name: UrlTest, type: url-test, rule: [".*"], url: http://www.gstatic.com/generate_204, interval: 300, tolerance: 100, timeout: 5}
+  - {name: 节点选择, type: select, rule: [".*"]}
 
-  #流媒体
-  YouTube_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
-    path: ./RuleSet/YouTube.yaml
-    interval: 86400
 
-  Emby_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ovotest986/aclsst6/main/Emby.yaml"
-    path: ./RuleSet/Emby.yaml
-    interval: 86400
-
-  Netflix_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
-    path: ./RuleSet/Netflix.yaml
-    interval: 86400
-
-  #Telegram
-  Telegram_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
-    path: ./RuleSet/Telegram.yaml
-    interval: 86400
-
-  #Google
-  Google_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
-    path: ./RuleSet/Google.yaml
-    interval: 86400
-
-  #Steam
-  Steam_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml"
-    path: ./RuleSet/Steam.yaml
-    interval: 86400
-
-  #Apple
-  Apple_Classical_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml"
-    path: ./RuleSet/Apple_Classical.yaml
-    interval: 86400
-
-  #Microsoft
-  Microsoft_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
-    path: ./RuleSet/Microsoft.yaml
-    interval: 86400
-
-  #OpenAI
-  OpenAI_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ovotest986/aclsst6/main/OpenAI.yaml"
-    path: ./RuleSet/OpenAI.yaml
-    interval: 86400
-
-  #TikTok
-  TikTok_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml"
-    path: ./RuleSet/TikTok.yaml
-    interval: 86400
-
-  #BiliBili
-  BiliBili_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml"
-    path: ./RuleSet/BiliBili.yaml
-    interval: 86400
-
-  #Twitter
-  Twitter_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml"
-    path: ./RuleSet/Twitter.yaml
-    interval: 86400
-
-  ChinaMedia_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml"
-    path: ./RuleSet/ChinaMedia.yaml
-    interval: 86400
-
-  GlobalMedia_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml"
-    path: ./RuleSet/GlobalMedia.yaml
-    interval: 86400
-
-  Main_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml"
-    path: ./RuleSet/Main.yaml
-    interval: 86400
-    
-  SpeedTest_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ovotest986/aclsst6/main/SpeedTest.yaml"
-    path: ./RuleSet/SpeedTest.yaml
-    interval: 86400
-
-  PayPal_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ovotest986/aclsst6/main/PayPal.yaml"
-    path: ./RuleSet/PayPal.yaml
-    interval: 86400
-
-  BanProgramAD_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
-    path: ./RuleSet/BanProgramAD.yaml
-    interval: 86400
-
-  BanAD_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml"
-    path: ./RuleSet/BanAD.yaml
-    interval: 86400
-
-  LocalAreaNetwork_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
-    path: ./RuleSet/LocalAreaNetwork.yaml
-    interval: 86400
-
-  Extra_rule:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/ovotest986/aclsst6/main/Extra.yaml"
-    path: ./RuleSet/Extra.yaml
-    interval: 86400
-# script:
-#   shortcuts:
-#     quic: network == 'udp' and dst_port == 443
+advanced:
+  log_level: info
+  print_debug_info: false
+  max_pending_connections: 10240
+  max_concurrent_threads: 2
+  max_allowed_rulesets: 0
+  max_allowed_rules: 0
+  max_allowed_download_size: 0
+  enable_cache: false
+  cache_subscription: 60
+  cache_config: 300
+  cache_ruleset: 21600
+  script_clean_context: true
+  async_fetch_ruleset: false
+  skip_failed_links: false
 
 rules:
-  # - SCRIPT,quic,✨ Extra
-  - RULE-SET,Extra_rule,✨ Extra,no-resolve
-  - RULE-SET,LocalAreaNetwork_rule,🎯 Gobal Direct,no-resolve
-  - RULE-SET,BanAD_rule,⛔️ Gobal Reject,no-resolve
-  - RULE-SET,BanProgramAD_rule,⛔️ Gobal Reject,no-resolve
-  - RULE-SET,OpenAI_rule,💡 OpenAI,no-resolve
-  - RULE-SET,PayPal_rule,💳 PayPal,no-resolve
-  - RULE-SET,SpeedTest_rule,🚀 SpeedTest,no-resolve
-  - RULE-SET,Apple_Classical_rule,🍎 Apple,no-resolve
-  - RULE-SET,Microsoft_rule,Ⓜ️ Microsoft,no-resolve
-  - RULE-SET,Google_rule,🌏 Google,no-resolve
-  - RULE-SET,Steam_rule,🕹️ Steam,no-resolve
-  - RULE-SET,Telegram_rule,📲 Telegram,no-resolve
-  - RULE-SET,Twitter_rule,💭 Twitter,no-resolve
-  - RULE-SET,TikTok_rule,📸 TikTok,no-resolve
-  - RULE-SET,Spotify_rule,🎵 Spotify,no-resolve
-  - RULE-SET,YouTube_rule,🎞️ YouTube,no-resolve
-  - RULE-SET,Emby_rule,📼 Emby,no-resolve
-  - RULE-SET,Netflix_rule,🎬 Netflix,no-resolve
-  - RULE-SET,BiliBili_rule,🍻 BiliBili,no-resolve
-  - RULE-SET,ChinaMedia_rule,📺 China Media,no-resolve
-  - RULE-SET,GlobalMedia_rule,📺 Global Media,no-resolve
-  - RULE-SET,Main_rule,☕ Main,no-resolve
-  # - RULE-SET,China_rule,🎯 Gobal Direct,no-resolve #no-resolve加上就是不解析DNS
-  # - RULE-SET,Download_rule,💾 Download,no-resolve
-  - GEOIP,CN,🎯 Gobal Direct,no-resolve
-  - MATCH,🐟 Final
+  - RULE-SET,DIRECT,UrlTest
+  - RULE-SET,MAIN,节点选择
+  - GEOIP,CN,节点选择
+  - MATCH,节点选择
 
