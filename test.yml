@@ -44,38 +44,22 @@ proxy-groups:
     proxies:
     filter:^(?!.*(官网|剩余|流量|到期|套餐))
     
-
-
-# 代理组策略
 Proxy Group:
-# 代理节点选择
+
 - { name: "Proxy", type: select, proxies: ["☕ Main"] }
-# 油管
 - { name: "google", type: select, proxies: ["Proxy"] }
-# netflix
 - { name: "netflix", type: select, proxies: ["Proxy"] }
-# 动画疯
 - { name: "动画疯", type: select, proxies: ["Proxy"] }
-# 美区影视
 - { name: "美区影视", type: select, proxies: ["Proxy"] }
-# fox+
 - { name: "fox+", type: select, proxies: ["Proxy"] }
-# 白名单模式 PROXY，黑名单模式 DIRECT
 - { name: "Final", type: select, proxies: ["Proxy","网易解锁", "DIRECT"] }
-# Apple 服务代理
 - { name: "Apple", type: select, proxies: ["DIRECT", "Proxy"] }
-# 国际媒体服务
 - { name: "Global_media", type: select, proxies: ["Proxy","网易解锁"] }
-# 国内媒体服务
 - { name: "Domestic", type: select, proxies: ["DIRECT","网易解锁"] }
-#去广告
 - { name: "屏蔽广告", type: select, proxies: ["REJECT","网易解锁", "DIRECT"] }
-#网易解锁
 - { name: "UnblockNeteaseMusic", type: select, proxies: ["网易解锁"] }
-#Telegram
 - { name: "Telegram", type: select, proxies: ["Proxy"] }
 
-#规则
 Rule:
 
 - DOMAIN-KEYWORD,netease,UnblockNeteaseMusic
