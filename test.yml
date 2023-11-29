@@ -1,5 +1,4 @@
 
-[custom]
 
 rulesets:
   enabled: true
@@ -14,8 +13,6 @@ proxy_groups:
   custom_proxy_group:
   - {name: UrlTest, type: url-test, rule: [".*"], url: http://www.gstatic.com/generate_204, interval: 300, tolerance: 100, timeout: 5}
   - {name: 节点选择, type: select, rule: [".*"]}
-
-clash_rule_base=https://raw.githubusercontent.com/ovotest986/aclsst6/main/test.yml
 
 advanced:
   log_level: info
@@ -39,5 +36,3 @@ rules:
   - GEOIP,CN,节点选择
   - MATCH,节点选择
 
-enable_rule_generator=true
-overwrite_original_rules=true
