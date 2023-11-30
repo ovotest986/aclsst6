@@ -1,4 +1,4 @@
-⚡Main`select`.*`[]♻️ Auto`[]DIRECT`.*
+⚡Main`select`[]♻️ Auto`[]DIRECT`.*
 ♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`300
 🍎 Apple`select`[]DIRECT`[]⚡Main
 🎬 Emby`select`[]⚡Main`[]DIRECT
