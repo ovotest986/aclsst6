@@ -1,23 +1,23 @@
 Nexitally`select`.*`[]♻️ Auto`[]DIRECT`.*
 ♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`300
-🍎 Apple`select`[]DIRECT`[]Nexitally`.*
-🎬 Emby`select`[]Nexitally`[]DIRECT`.*
-📲 Telegram`select`[]Nexitally`[]DIRECT`.*
-🎬 YouTube`select`[]Nexitally`[]DIRECT`.*
-🎬 Bilibili`select`[]DIRECT`[]Nexitally`.*
-🎬 myTVSUPER`select`[]Nexitally`[]DIRECT`.*
-📲 LineTV`select`[]Nexitally`[]DIRECT`.*
-🎬 iQiyi`select`[]DIRECT`[]Nexitally`.*
-🎵 Tiktok`select`[]Nexitally`[]DIRECT`.*
-📺 Disney`select`[]Nexitally`[]DIRECT`.*
-📺 Netflix`select`[]Nexitally`[]DIRECT`.*
-🌐 Google`select`[]Nexitally`[]DIRECT`.*
-🐹 OpenAI`select`[]Nexitally`[]DIRECT`.*
-🖥 Microsoft`select`[]DIRECT`[]Nexitally`.*
-🖥 Learning`select`[]Nexitally`[]DIRECT`.*
-📟 Twitter`select`[]Nexitally`[]DIRECT`.*
-📺 International-Media`select`[]Nexitally`[]DIRECT`.*
-China-Media`select`[]DIRECT`[]Nexitally`.*
+🍎 Apple`select`[]DIRECT`[]Nexitally
+🎬 Emby`select`[]Nexitally`[]DIRECT
+📲 Telegram`select`[]Nexitally`[]DIRECT
+🎬 YouTube`select`[]Nexitally`[]DIRECT
+🎬 Bilibili`select`[]DIRECT`[]Nexitally
+🎬 myTVSUPER`select`[]Nexitally`[]DIRECT
+📲 LineTV`select`[]Nexitally`[]DIRECT
+🎬 iQiyi`select`[]DIRECT`[]Nexitally
+🎵 Tiktok`select`[]Nexitally`[]DIRECT
+📺 Disney`select`[]Nexitally`[]DIRECT
+📺 Netflix`select`[]Nexitally`[]DIRECT
+🌐 Google`select`[]Nexitally`[]DIRECT
+🐹 OpenAI`select`[]Nexitally`[]DIRECT
+🖥 Microsoft`select`[]DIRECT`[]Nexitally
+🖥 Learning`select`[]Nexitally`[]DIRECT
+📟 Twitter`select`[]Nexitally`[]DIRECT
+📺 International-Media`select`[]Nexitally`[]DIRECT
+China-Media`select`[]DIRECT`[]Nexitally
+China-Websites`select`[]DIRECT`[]Nexitally
 Hijacking`select`[]REJECT`[]DIRECT
-China-Websites`[]DIRECT`[]Nexitally`.*
-Final`select`[]Nexitally`[]DIRECT`.*
+Final`select`[]Nexitally`[]DIRECT
