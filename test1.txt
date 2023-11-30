@@ -1,25 +1,25 @@
-⚡Main`select`.*`[]AUTO`[]DIRECT`.*
+PROXY`select`.*`[]AUTO`[]DIRECT`.*
 AUTO`url-test`.*`http://www.gstatic.com/generate_204`300
-Domestic`select`[]DIRECT`[]⚡Main`.*
-Others`select`[]DIRECT`[]⚡Main`.*
-AdBlock`select`[]REJECT`[]DIRECT`[]⚡Main
-Anti IP`select`[]DIRECT`[]⚡Main`.*
-Netflix`select`[]⚡Main`[]DIRECT`.*
-Disney`select`[]⚡Main`[]DIRECT`.*
-YouTube`select`[]⚡Main`[]DIRECT`.*
-Spotify`select`[]⚡Main`[]DIRECT`.*
-Asian TV`select`[]⚡Main`[]DIRECT`.*
-Global TV`select`[]⚡Main`[]DIRECT`.*
-Apple`select`[]⚡Main`[]DIRECT`.*
-Apple TV`select`[]⚡Main`[]DIRECT`.*
-Telegram`select`[]⚡Main`[]DIRECT`.*
-Google FCM`select`[]⚡Main`[]DIRECT`.*
-Crypto`select`[]⚡Main`[]DIRECT`.*
-Discord`select`[]⚡Main`[]DIRECT`.*
-OpenAI`select`[]⚡Main`[]DIRECT`.*
-Microsoft`select`[]⚡Main`[]DIRECT`.*
-PayPal`select`[]⚡Main`[]DIRECT`.*
-Scholar`select`[]⚡Main`[]DIRECT`.*
-Speedtest`select`[]⚡Main`[]DIRECT`.*
-Steam`select`[]⚡Main`[]DIRECT`.*
-miHoYo`select`[]⚡Main`[]DIRECT`.*
+Domestic`select`[]DIRECT`[]PROXY`.*
+Others`select`[]DIRECT`[]PROXY`.*
+AdBlock`select`[]REJECT`[]DIRECT`[]PROXY
+Anti IP`select`[]DIRECT`[]PROXY`.*
+Netflix`select`[]PROXY`[]DIRECT`.*
+Disney`select`[]PROXY`[]DIRECT`.*
+YouTube`select`[]PROXY`[]DIRECT`.*
+Spotify`select`[]PROXY`[]DIRECT`.*
+Asian TV`select`[]PROXY`[]DIRECT`.*
+Global TV`select`[]PROXY`[]DIRECT`.*
+Apple`select`[]PROXY`[]DIRECT`.*
+Apple TV`select`[]PROXY`[]DIRECT`.*
+Telegram`select`[]PROXY`[]DIRECT`.*
+Google FCM`select`[]PROXY`[]DIRECT`.*
+Crypto`select`[]PROXY`[]DIRECT`.*
+Discord`select`[]PROXY`[]DIRECT`.*
+OpenAI`select`[]PROXY`[]DIRECT`.*
+Microsoft`select`[]PROXY`[]DIRECT`.*
+PayPal`select`[]PROXY`[]DIRECT`.*
+Scholar`select`[]PROXY`[]DIRECT`.*
+Speedtest`select`[]PROXY`[]DIRECT`.*
+Steam`select`[]PROXY`[]DIRECT`.*
+miHoYo`select`[]PROXY`[]DIRECT`.*
