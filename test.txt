@@ -19,4 +19,5 @@ Nexitally`select`.*`[]♻️ Auto`[]DIRECT`.*
 📺 International-Media`select`[]Nexitally`[]DIRECT
 China-Media`select`[]DIRECT`[]Nexitally
 Hijacking`select`[]REJECT`[]DIRECT
+China-Websites`[]DIRECT`[]Nexitally
 Final`select`[]Nexitally`[]DIRECT
