@@ -156,6 +156,50 @@ rules:
   - DOMAIN-SUFFIX,steam-content-dnld-1.eu-c1-cdn.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,steam-content-dnld-1.qwilted-cds.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
+  - DOMAIN,emby.xeton.dev,🎬 Emby
+  - DOMAIN,emby-misakaf.atomlantis.cloud ,🎬 Emby
+  - DOMAIN,emby-mix.atomlantis.cloud,🎬 Emby
+  - DOMAIN,emby.cn2gias.uk,🎬 Emby
+  - DOMAIN,emby.enjoyit.eu.org,🎬 Emby
+  - DOMAIN-SUFFIX,cn2gias.uk,🎬 Emby
+  - DOMAIN-SUFFIX,agahk1.jmsooo.com,🎬 Emby
+  - DOMAIN-SUFFIX,agajp1.jmsooo.com,🎬 Emby
+  - DOMAIN-SUFFIX,agasg1.jmsooo.com,🎬 Emby
+  - DOMAIN-SUFFIX,aws.jmsooo.com,🎬 Emby
+  - DOMAIN-SUFFIX,cf1.jmsooo.com,🎬 Emby
+  - DOMAIN-SUFFIX,cristiamo.xyz,🎬 Emby
+  - DOMAIN-SUFFIX,emby.cjpc.cc,🎬 Emby
+  - DOMAIN-SUFFIX,emby.cjpc.tv,🎬 Emby
+  - DOMAIN-SUFFIX,emby.cjpc.xyz,🎬 Emby
+  - DOMAIN-SUFFIX,emby.cristiamo.top,🎬 Emby
+  - DOMAIN-SUFFIX,emby.flowercloud.yt,🎬 Emby
+  - DOMAIN-SUFFIX,emby.immtel.com,🎬 Emby
+  - DOMAIN-SUFFIX,emby.maying.club,🎬 Emby
+  - DOMAIN-SUFFIX,emby.mcwy.me,🎬 Emby
+  - DOMAIN-SUFFIX,emby.mdss.cloud,🎬 Emby
+  - DOMAIN-SUFFIX,emby.neko.edu.rs,🎬 Emby
+  - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
+  - DOMAIN-SUFFIX,emby.nyancat.net,🎬 Emby
+  - DOMAIN-SUFFIX,emby.ok.edu.hk,🎬 Emby
+  - DOMAIN-SUFFIX,emby.paoche.ooo,🎬 Emby
+  - DOMAIN-SUFFIX,emby.prprcloud.com,🎬 Emby
+  - DOMAIN-SUFFIX,emby.wtf,🎬 Emby
+  - DOMAIN-SUFFIX,emby.xeton.dev,🎬 Emby
+  - DOMAIN-SUFFIX,emby.ytoo.li,🎬 Emby
+  - DOMAIN-SUFFIX,embyserver.ga,🎬 Emby
+  - DOMAIN-SUFFIX,hinet.jmsooo.com,🎬 Emby
+  - DOMAIN-SUFFIX,jellyfin.xeton.dev,🎬 Emby
+  - DOMAIN-SUFFIX,line.emby.men,🎬 Emby
+  - DOMAIN-SUFFIX,mickeycloud.com,🎬 Emby
+  - DOMAIN-SUFFIX,movie.xeton.dev,🎬 Emby
+  - DOMAIN-SUFFIX,ntt1.jmsooo.com,🎬 Emby
+  - DOMAIN-SUFFIX,plusmedia.site,🎬 Emby
+  - DOMAIN-SUFFIX,pornemby.club,🎬 Emby
+  - DOMAIN-SUFFIX,servers.xeton.dev,🎬 Emby
+  - DOMAIN-KEYWORD,emby.wtf,🎬 Emby
+  - DOMAIN-KEYWORD,jmsooo,🎬 Emby
+  - DOMAIN-KEYWORD,odysseyplus,🎬 Emby
+  - PROCESS-NAME,com.mb.android,🎬 Emby
   - DOMAIN-SUFFIX,ap.spotify.com,DIRECT
   - DOMAIN-KEYWORD,epochtimes,REJECT
   - DOMAIN-SUFFIX,881903.com,REJECT
