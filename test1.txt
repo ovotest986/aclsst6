@@ -4,6 +4,7 @@ Domestic`select`[]DIRECT`[]Proxy`.*
 Others`select`[]DIRECT`[]Proxy`.*
 AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
 Anti IP`select`[]DIRECT`[]Proxy`.*
+Emby`select`[]Proxy`[]DIRECT`.*
 Netflix`select`[]Proxy`[]DIRECT`.*
 Disney`select`[]Proxy`[]DIRECT`.*
 YouTube`select`[]Proxy`[]DIRECT`.*
