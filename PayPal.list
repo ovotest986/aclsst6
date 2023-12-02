@@ -254,3 +254,6 @@ DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
 DOMAIN-KEYWORD,paypal
 USER-AGENT,PayPal*
+
+# 临时加一条和pp无关的
+DOMAIN-KEYWORD,talkatone
