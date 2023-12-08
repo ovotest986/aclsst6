@@ -40,7 +40,6 @@ DOMAIN-SUFFIX,servers.xeton.dev
 DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,jmsooo
 DOMAIN-KEYWORD,odysseyplus
-  - PROCESS-NAME,com.mb.android
 DOMAIN-SUFFIX,emby.aca.best
 DOMAIN-SUFFIX,porn.aca.best
 DOMAIN-SUFFIX,cc.ccemby.tk
@@ -56,7 +55,6 @@ DOMAIN-SUFFIX,ntt1.jmsooo.com
 DOMAIN-SUFFIX,hinet.jmsooo.com
 DOMAIN-SUFFIX,cf1.jmsooo.com
 DOMAIN-SUFFIX,ju.dog
-  - IP-CIDR,202.61.255.248/32
 DOMAIN-SUFFIX,charontv.com
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,push-kr.cfprefer3.xyz
@@ -124,7 +122,6 @@ DOMAIN-SUFFIX,shuipo.lol
 DOMAIN-SUFFIX,dicarerhome.com
 DOMAIN-SUFFIX,emby77.cf
 DOMAIN-SUFFIX,embyplus.org
-  - IP-CIDR,188.172.228.49/32
 DOMAIN-SUFFIX,embytv.cf
 DOMAIN-SUFFIX,zox.show
 DOMAIN-SUFFIX,acemby.org
@@ -170,3 +167,5 @@ DOMAIN-SUFFIX,reddust.link
 DOMAIN-SUFFIX,semby.ink
 DOMAIN-SUFFIX,us.zerodisk.site
 DOMAIN-KEYWORD,emby
+IP-CIDR,202.61.255.248/32
+IP-CIDR,188.172.228.49/32
