@@ -3,5 +3,7 @@ payload:
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,gun.com
   - DOMAIN-KEYWORD,talkatone
+  - DOMAIN,www.voachinese.com
+  - DOMAIN,www.bloomberg.com
 
 # IP-CIDR,34.107.0.0/16,no-resolve
