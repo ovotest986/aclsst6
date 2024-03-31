@@ -34,6 +34,7 @@ payload:
   - DOMAIN,api.msn.com
   - DOMAIN,assets.msn.com
   - DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
+  - DOMAIN-KEYWORD,copilot
   # - DOMAIN,eas.outlook.com
   - DOMAIN,gateway.bingviz.microsoftapp.net
   - DOMAIN,location.microsoft.com
