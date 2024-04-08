@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,poe.com
+DOMAIN-KEYWORD,perplexity
 
 #Copilot
 DOMAIN,api.msn.com
