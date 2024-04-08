@@ -5,6 +5,6 @@ payload:
   - DOMAIN-KEYWORD,talkatone
   - DOMAIN-KEYWORD,voa
   - DOMAIN-KEYWORD,bbc
-  - - DOMAIN-KEYWORD,bloomberg
+  - DOMAIN-KEYWORD,bloomberg
 
 # IP-CIDR,34.107.0.0/16,no-resolve
