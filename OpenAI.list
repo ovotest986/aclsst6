@@ -4,6 +4,8 @@ DOMAIN,edgeservices.bing.com
 DOMAIN,www.bing.com
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,aistudio
 DOMAIN,bard.google.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
