@@ -168,3 +168,5 @@ DOMAIN-SUFFIX,us.zerodisk.site
 DOMAIN-KEYWORD,emby
 IP-CIDR,202.61.255.248/32,no-resolve
 IP-CIDR,188.172.228.49/32,no-resolve
+IP-CIDR,83.147.61.152/32,no-resolve
+IP-CIDR,104.168.178.150/32,no-resolve
