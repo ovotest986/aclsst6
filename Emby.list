@@ -1,16 +1,8 @@
-DOMAIN-SUFFIX,agahk1.jmsooo.com
-DOMAIN-SUFFIX,agajp1.jmsooo.com
-DOMAIN-SUFFIX,agasg1.jmsooo.com
-DOMAIN-SUFFIX,aws.jmsooo.com
-DOMAIN-SUFFIX,cf1.jmsooo.com
+DOMAIN-SUFFIX,jmsooo.com
 DOMAIN-SUFFIX,cristiamo.xyz
-DOMAIN-SUFFIX,hinet.jmsooo.com
-DOMAIN-SUFFIX,jellyfin.xeton.dev
+DOMAIN-SUFFIX,xeton.dev
 DOMAIN-SUFFIX,mickeycloud.com
-DOMAIN-SUFFIX,movie.xeton.dev
-DOMAIN-SUFFIX,ntt1.jmsooo.com
 DOMAIN-SUFFIX,plusmedia.site
-DOMAIN-SUFFIX,servers.xeton.dev
 DOMAIN-SUFFIX,porn.aca.best
 DOMAIN-SUFFIX,mius.uk
 DOMAIN-SUFFIX,ju.dog
@@ -19,9 +11,7 @@ DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,push-kr.cfprefer3.xyz
 DOMAIN-SUFFIX,ntrrr.am.sb
 DOMAIN-SUFFIX,cf.odysseyplus.site
-DOMAIN-SUFFIX,agahk.odysseyplus.site
-DOMAIN-SUFFIX,agasg.odysseyplus.site
-DOMAIN-SUFFIX,ru.odysseyplus.site
+DOMAIN-SUFFIX,odysseyplus.site
 DOMAIN-SUFFIX,pilipiliultra.top
 DOMAIN-SUFFIX,pilipiliultra.com
 DOMAIN-SUFFIX,pololine.ml
@@ -70,7 +60,6 @@ DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,9521732.xyz
 DOMAIN-SUFFIX,reddust.link
 DOMAIN-SUFFIX,us.zerodisk.site
-DOMAIN-KEYWORD,jmsooo
 DOMAIN-KEYWORD,odysseyplus
 DOMAIN-KEYWORD,cn2gia
 IP-CIDR,202.61.255.248/32,no-resolve
