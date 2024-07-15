@@ -7,7 +7,7 @@ payload:
   - DOMAIN-KEYWORD,gemini
   - DOMAIN-KEYWORD,aistudio
   - DOMAIN,bard.google.com
-  - DOMAIN,you.com
+  - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN,chatgpt.livekit.cloud
