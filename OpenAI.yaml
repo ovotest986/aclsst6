@@ -1,4 +1,6 @@
 payload:
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,stripe.com
